@@ -21,7 +21,9 @@ using namespace std;
 int main()
 {
 
-	double customers = 16500;
+	double customers;
+	cout << "Enter amount of surveyed customers: " << endl;
+	cin >> customers;
 	double purchaseDrinks = customers * .15;
 
 	double citrusFlavor = purchaseDrinks * .58;
