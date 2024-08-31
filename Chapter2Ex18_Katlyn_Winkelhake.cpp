@@ -16,4 +16,20 @@ that the user can enter the number of the number of customers that were surveyed
 */
 
 #include <iostream>
+using namespace std;
 
+int main()
+{
+
+	double customers = 16500;
+	double purchaseDrinks = customers * .15;
+
+	double citrusFlavor = purchaseDrinks * .58;
+
+	cout << " The approximate number of customers in the survey who purchase one or more energy drinks per week is " << purchaseDrinks << endl;
+	cout << "The approximate number of customers in the survey who prefer citrus-flavored energy drinks is " << citrusFlavor << endl;
+
+
+
+	return 0;
+}
